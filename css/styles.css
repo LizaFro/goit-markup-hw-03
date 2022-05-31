@@ -122,8 +122,7 @@ img {
 }
 
 .page-header-contacts{
-    margin-left: auto;;
-    margin-right: 50px;
+    margin-left: auto;
 }
 
 .page-header-email {
@@ -132,9 +131,12 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--contacts-color);
+}
 
+.header-contacts-item:not(:last-child) {
     margin-right: 50px;
 }
+
 
 .page-header-phone-number {
     font-weight: 500;
@@ -158,10 +160,13 @@ img {
 /*HERO*/
 .hero {
     background: var(--background-color);
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 
 .main-text {
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -170,6 +175,7 @@ img {
     text-transform: uppercase;
     color: var(--text-accent);
     margin-bottom: 30px;
+    margin-right: auto;margin-left: auto;
     
 }
 
@@ -213,7 +219,7 @@ img {
 }
 
 .benefits-item {
-  width: calc((100% - 120px) / 4);
+  width: calc((100% - 90px) / 4);
 }
 
 .benefits-item:not(:nth-child(4n)) {
@@ -227,6 +233,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
+    margin-bottom: 10px;
 }
 
 .section-description {
@@ -234,6 +241,10 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--contacts-color);;
+}
+
+.what-are-we-doing-section {
+    padding-top: 0;
 }
 
 .title {
@@ -259,6 +270,10 @@ img {
     flex-basis: calc((100%-90)/3);
 }
 
+.our-team-section {
+    background: #F5F4FA;
+}
+
 .team-section {
     display: flex;
 }
@@ -275,6 +290,11 @@ img {
     margin-right: 30px;
 }
 
+.team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .employee-name {
     font-weight: 500;
     font-size: 16px;
@@ -282,7 +302,6 @@ img {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--title-color);
-    margin-top: 30px;
 }
 
 .team-section-position {
@@ -292,7 +311,6 @@ img {
     text-align: center;
     color: var(--contacts-color);
     margin-top: 10px;
-    margin-bottom: 30px;
 }
 
 
@@ -300,6 +318,8 @@ img {
 
 .footer {
     background: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
     
 }
 
@@ -355,7 +375,7 @@ img {
 }
 
 .list-button {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .button-section {
